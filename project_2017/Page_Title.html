@@ -10,10 +10,11 @@
             z-index: 0;
         }
         .bar {
-            height: 30px;
+            height: 12%;
             width: 100%;
             position: fixed;
             z-index: 1;
+            background-color: #2b3037;
         }
 
         .bar .menu li {
@@ -21,7 +22,6 @@
             float: left;
             line-height: 40px;
             vertical-align: middle;
-            text-align: center;
             color: white;
             background-color: #2b3037;
         }
@@ -29,12 +29,15 @@
         .bar .title li {
             list-style: none;
             float: left;
+            background-color: #2b3037;
+            color: white;
         }
 
         .bar .search li{
             list-style: none;
             float: right;
             line-height: 35px;
+            background-color: #2b3037;
         }
 
         .bar .menu .menu_link {
@@ -42,7 +45,8 @@
             background-color: #2b3037;
             color: white;
             display: block;
-            width: 250px;
+            padding: 0px 150px;
+            padding-bottom: 3px;
             font-size: 20px;
         }
 
@@ -60,19 +64,16 @@
         </style>
     </head>
     <body>
+        <header>
         <nav class = "bar"><!-- menu bar-->
             <ul class = "title">
                 <li>여긴 사진</li>
-                <li>여긴 글</li>
+                <li>MUSIK</li>
             </ul><br>
             <ul class = "menu">
-                <li><a class = "menu_link" href = "#1">First</a></li>
-                <li style = "color: white">|</li>
-                <li><a class = "menu_link" href = "#2">Second</a></li>
-                <li>|</li>
-                <li><a class = "menu_link" href = "#3">Third</a></li>
-                <li>|</li>
-                <li><a class = "menu_link" href = "#4">Fourth</a></li>
+                <li><a class = "menu_link" href = "#1">HomePage</a></li>
+                <li><a class = "menu_link" href = "#2">Upload</a></li>
+                <li><a class = "menu_link" href = "#3" id = "tag">Tag</a></li>
             </ul>
             <ul class = "search">
                 <li><input type = "submit" value  = "검색" style = "background-color: white"></li>
@@ -80,16 +81,22 @@
                     style = "background-color: white"></li>
             </ul>
         </nav> 
+        </header>
 
+        <aside class = "sound">
+            음악재생 상황 설명
+        </aside>
         <div class = "sound">
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            <p>이 글은 스크롤을 만들기 위해 쓰여진 글이며 이 사이트의 내용과는 전혀 관계가 
-                없을 수도 있습니다.<br>이 공간은 언젠가 추가될 사운드파일을 위한 자리입니다. 
-                <br>이 글을 쓴 이유는 메뉴 따라오는 걸 시험하기 위해 작성했습니다.
-                <br>가나다라마바사<br>가나다라마바사<br>가나다라마바사<br>가나다라마바사<br>가나다라마바사<br>가나다라마바사
-                <br>가나다라마바사<br>가나다라마바사<br>가나다라마바사<br>가나다라마바사<br>가나다라마바사<br>가나다라마바사<br>가나다라마바사
-                <br>가나다라마바사<br>가나다라마바사<br>가나다라마바사
-            </p>
-        </div>
-    </body>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <p>이 글은 스크롤을 만들기 위해 쓰여진 글이며 이 사이트의 내용과는 전혀 관계가 
+                    없을 수도 있습니다.<br>이 공간은 언젠가 추가될 사운드파일을 위한 자리입니다. 
+                    <br>이 글을 쓴 이유는 메뉴 따라오는 걸 시험하기 위해 작성했습니다.
+                    <br>가나다라마바사<br>가나다라마바사<br>가나다라마바사<br>가나다라마바사<br>가나다라마바사<br>가나다라마바사
+                    <br>가나다라마바사<br>가나다라마바사<br>가나다라마바사<br>가나다라마바사<br>가나다라마바사<br>가나다라마바사<br>가나다라마바사
+                    <br>가나다라마바사<br>가나다라마바사<br>가나다라마바사
+                </p>
+            </div>
+            <footer class = "sound">
+                종료
+            </footer>
 </html>
