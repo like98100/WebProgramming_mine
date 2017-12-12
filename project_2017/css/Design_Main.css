@@ -52,6 +52,29 @@
             color: white;
             background-color: blue;
         }
+/*        
+        .bar .menu .menu_link:hover .submenu{
+            height : 93px;
+        }*/
+        .submenu {
+                position : absolute;
+                height : 0px;
+                overflow : hidden;
+                transition : height .2s;
+        }
+        
+        .submenu_link {
+                color : #2b3037;
+                background-color: white;
+                border : solid 1px #4d4d4d;
+                margin-top : -1px;
+                padding : 0px 30px;
+        }
+        
+        .submenu_link :hover {
+                color : white;
+                background-color : #4d4d4d;
+        }
 
         .sound {
             position: relative;
