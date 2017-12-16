@@ -11,13 +11,19 @@
             background-color: #2b3037;
         }
 
-        .bar .menu li {
+        .bar .menu {
             list-style: none;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .bar .menu li {
             float: left;
             line-height: 40px;
             vertical-align: middle;
             color: white;
             background-color: #2b3037;
+            position: relative;
         }
         
         .bar .title li {
@@ -34,13 +40,16 @@
             background-color: #2b3037;
         }
 
-        .bar .menu .menu_link {
+        .menu_link, .submenu_link {
             text-decoration: none;
+            display: block;
+        }
+
+        .bar .menu .menu_link {
             background-color: #2b3037;
             color: white;
-            display: block;
-            padding: 0px 150px;
-            padding-bottom: 3px;
+            
+            padding: 10px 150px;
             font-size: 20px;
         }
 
@@ -48,32 +57,35 @@
             color: white;
             background-color: #4d4d4d;
         }
-        .bar .menu .menu_link #tag:hover {
+        #tag:hover {
             color: white;
             background-color: blue;
         }
-/*        
-        .bar .menu .menu_link:hover .submenu{
-            height : 93px;
-        }*/
+
+        #tag:hover .submenu {
+            height: 930px;
+            
+        }
+
         .submenu {
-                position : absolute;
-                height : 0px;
-                overflow : hidden;
-                transition : height .2s;
+                list-style: none;
+                position: absolute;
+                height: 0px;
+                /*overflow: hidden;*/
+                transition: height .2s;
         }
         
         .submenu_link {
-                color : #2b3037;
+                color: #2b3037;
                 background-color: white;
-                border : solid 1px #4d4d4d;
-                margin-top : -1px;
-                padding : 0px 30px;
+                border: solid 1px #4d4d4d;
+                padding: 0px 30px;
+                font-size: 16px;
         }
         
         .submenu_link :hover {
-                color : white;
-                background-color : #4d4d4d;
+                color: white;
+                background-color: blue;
         }
 
         .sound {
