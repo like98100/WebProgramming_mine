@@ -5,7 +5,7 @@
             margin: 0px;
             padding: 0px;
             z-index: 0;
-            font-size: 18px;
+            font-size: 1em;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             color: white;
         }
@@ -54,13 +54,18 @@
             vertical-align: middle;
             position: absolute;
             padding: 1px 150px;
-            font-size: 20px;
+            font-size: 1em;
         }
         /*서브메뉴*/
         .submenu {
+            list-style: none;
+            text-decoration: none;
             position: absolute;
             display: none;
             height: auto;
+            top: 105px;
+            text-align: center;
+            line-height: 50px;
             /*transition: height .2s;*/
             z-index: 2;
     }
@@ -70,12 +75,12 @@
             background-color: #4d4d4d;
         }
         /*태그 메뉴 호버*/
-        #tag:hover {
+        #tag:active {
             color: white;
             background-color: blue;
         }
-        /*태그 호버 시 서브메뉴*/
-        #tag:hover .submenu {
+        /*태그 클릭 시 서브메뉴*/
+        #tag:active .submenu {
             display: inline-block;
         }
 
@@ -84,8 +89,8 @@
                 color: white;
                 background-color: black;
                 border: solid 1px #4d4d4d;
-                padding: 0px 30px;
-                font-size: 16px;
+                padding: 0px 60px;
+                font-size: 1em;
         }
         /*서브메뉴 링크 호버*/
         .submenu_link:hover {
@@ -97,7 +102,7 @@
             position: relative;
             float: right;
             top: 150px;
-
+            z-index: 3;
         }  
         
         section {
