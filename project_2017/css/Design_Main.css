@@ -5,14 +5,14 @@
             margin: 0px;
             padding: 0px;
             z-index: 0;
-            font-size: 1em;
+            font-size: 1.02em;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             color: white;
         }
         /*상단바 전체*/
         .bar {
             clear: both;
-            height: 100px;
+            height: 115px;
             width: 100%;
             position: fixed;
             z-index: 1;
@@ -20,83 +20,91 @@
             border-bottom: 5px solid gray;
         }
         /*상단바 메뉴*/
-        .bar .menu {
+        .menu {
             list-style: none;
             margin: 0px;
-            padding: 0px;
+            padding: 0px;         
         }
         /*제목*/
-        .bar .title li {
-            list-style: none;
-            float: left;
+        .title p {
             background-color: black;
             color: white;
-        }
-        /*검색 바*/
-        .bar .search li{
-            position: absolute;
-            left: 1600px;
-            list-style: none;
-            line-height: 76px;
-            background-color: black;
+            font-size: 1.7em;
         }
 
-        /*메뉴,서브메뉴 링크*/
-        .menu_link, .submenu_link {
-            text-decoration: none;
-            display: block;
+        /*로그인*/
+        .loginforad {
+            margin: 0px;
+            background-color: black;
+            position: absolute;
         }
+        
+        .login_link {
+            text-decoration: none;
+            padding: 1px 100px;
+            background-color: black;
+            color: white;
+            position: absolute;
+            font-size: 1em;
+            transition-duration: 0.25s;
+            text-align: center;
+        }
+
         /*메뉴 링크*/
-        .bar .menu .menu_link {
+        .menu_link {
+            text-decoration: none;
             background-color: black;
             color: white;
             line-height: 74px;
-            vertical-align: middle;
             position: absolute;
             padding: 1px 150px;
             font-size: 1em;
+            transition-duration: 0.25s;
         }
-        /*서브메뉴*/
-        .submenu {
-            list-style: none;
+
+        /*서브메뉴(태그)*/
+        .submenu_tag {
+            display: inline-block;
             text-decoration: none;
             position: absolute;
-            display: none;
-            height: auto;
-            top: 105px;
+            top: 128px;
+            left: 370px;
+            margin: 0px;
+            padding: 0px;
+        }
+        /*서브메뉴 링크*/
+        .submenu_link {
+            text-decoration: none;
+            position: static;
+            color: white;
+            background-color: gray;
+            border: 1px solid white;
+            height: 30px;
+            width: 100px;
+            padding: 5px 80px;
+            line-height: 30px;
+            font-size: 1em;
             text-align: center;
-            line-height: 50px;
-            /*transition: height .2s;*/
-            z-index: 2;
-    }
+            display: inline-block;
+            transition-duration: 0.25s;
+            text-align: center;
+        }
         /*메뉴 링크 호버*/
-        .bar .menu .menu_link:hover {
+        .menu_link:hover {
             color: white;
             background-color: #4d4d4d;
         }
-        /*태그 메뉴 호버*/
-        #tag:active {
+
+        .login_link:hover {
             color: white;
-            background-color: blue;
-        }
-        /*태그 클릭 시 서브메뉴*/
-        #tag:active .submenu {
-            display: inline-block;
+            background-color: #4d4d4d;
         }
 
-        /*서브메뉴 링크*/
-        .submenu_link {
-                color: white;
-                background-color: black;
-                border: solid 1px #4d4d4d;
-                padding: 0px 60px;
-                font-size: 1em;
-        }
-        /*서브메뉴 링크 호버*/
         .submenu_link:hover {
-                color: white;
-                background-color: blue;
+            color: white;
+            background-color: #4d4d4d;
         }
+
         /*우측 사운드플레이어*/
         .player_sound {
             position: relative;
@@ -109,6 +117,7 @@
             position: absolute;
             top: 300px;
             left: 200px;
+            font-size: 1.1em;
         }
         /*음악 배치*/
         .array_sound {
