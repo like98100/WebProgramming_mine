@@ -1,67 +1,3 @@
-
-        /*전체*/
-        *   {
-            background-color: #222;
-            margin: 0px;
-            padding: 0px;
-            z-index: 0;
-            font-size: 1.02em;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            color: white;
-        }
-        /*상단바 전체*/
-        .bar {
-            clear: both;
-            height: 115px;
-            width: 100%;
-            position: fixed;
-            z-index: 1;
-            background-color: black;
-            border-bottom: 5px solid gray;
-        }
-        /*상단바 메뉴*/
-        .menu {
-            list-style: none;
-            margin: 0px;
-            padding: 0px;         
-        }
-        /*제목*/
-        .title p {
-            background-color: black;
-            color: white;
-            font-size: 1.7em;
-        }
-
-        /*로그인*/
-        .loginforad {
-            margin: 0px;
-            background-color: black;
-            position: absolute;
-        }
-        
-        .login_link {
-            text-decoration: none;
-            padding: 1px 100px;
-            background-color: black;
-            color: white;
-            position: absolute;
-            font-size: 1em;
-            transition-duration: 0.25s;
-            text-align: center;
-        }
-
-        /*메뉴 링크*/
-        .menu_link {
-            text-decoration: none;
-            background-color: black;
-            color: white;
-            line-height: 74px;
-            position: absolute;
-            padding: 1px 150px;
-            font-size: 1em;
-            transition-duration: 0.25s;
-        }
-
         /*서브메뉴(태그)*/
         .submenu_tag {
             display: inline-block;
@@ -88,37 +24,20 @@
             display: inline-block;
             transition-duration: 0.25s;
             text-align: center;
-        }
-        /*메뉴 링크 호버*/
-        .menu_link:hover {
-            color: white;
-            background-color: #4d4d4d;
-        }
-
-        .login_link:hover {
-            color: white;
-            background-color: #4d4d4d;
-        }
-
+        }       
+       
         .submenu_link:hover {
             color: white;
             background-color: #4d4d4d;
         }
-
-        /*우측 사운드플레이어*/
+       
+       /*우측 사운드플레이어*/
         .player_sound {
             position: relative;
             float: right;
             top: 150px;
             z-index: 3;
         }  
-        
-        section {
-            position: absolute;
-            top: 300px;
-            left: 200px;
-            font-size: 1.1em;
-        }
         /*음악 배치*/
         .array_sound {
             
