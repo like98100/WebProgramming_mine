@@ -6,13 +6,14 @@
         <title>MuSik</title>
         <link href="css/Design.css" type=text/css rel=stylesheet>
         <link href="css/Design_Bar.css" type=text/css rel=stylesheet>
+        <link href="css/Design_Upload.css" type=text/css rel=stylesheet>
     </head>
     <body>
         <header>
         <div class = "bar"><!-- menu bar-->
             <div class = "title">
-                <img src = "source/logo.png" width = 4.5% height = 30% style = "float: left; background-color: black;">
-                <p>MUSIK</p>
+                <img src = "source/logo.png" width = 70px height = 35px style = "float: left; background-color: black;">
+                <p>MuSik</p>
             </div>
             <div class = "menu">
                 <div><a class = "menu_link" href = "Page_Title.html">HomePage</a></div>
@@ -23,25 +24,6 @@
                 <div><a class = "login_link" href = "Page_Login.html" style = "left: 1600px;">Login for admin</a></div>
             </div>
         </div>
-
-        <div class = "submenu_tag">
-                <a class = "submenu_link" href = "#Rock">Rock</a>
-                <a class = "submenu_link" href = "#Classical">Classical</a>
-                <a class = "submenu_link" href = "#Movie">Movie</a>
-                <a class = "submenu_link" href = "#Pop">Pop</a>
-        </div>
-        <div class = "submenu_tag" style = "top: 175px;">
-                <a class = "submenu_link" href = "#Ballad">Ballad</a>
-                <a class = "submenu_link" href = "#Hiphop">Hiphop</a>
-                <a class = "submenu_link" href = "#Elec">Elec</a>
-                <a class = "submenu_link" href = "#RnB">RnB</a>
-        </div>
-        <div class = "submenu_tag" style = "top: 222px;">
-                <a class = "submenu_link" href = "#Game" href = "#Game">Game</a>
-                <a class = "submenu_link" href = "#Drama">Drama</a>
-                <a class = "submenu_link" href = "#Movie">Movie</a>
-                <a class = "submenu_link"href = "#ETC">ETC</a>
-        </div>
         </header>
 
         <section>
@@ -50,6 +32,9 @@
                             <legend>MuSik_UpLoad</legend>
                             <p><input type = "text" name = "title" placeholder="제목" class = "text"></p>
                             <textarea rows = "5" cols = "50" placeholder = "설명을 입력해주세요." class = "text"></textarea>
+                            <form action = "" method = "post" enctype = "multipart/form-data" name = "">
+                                <input type = "file" name = "FileName">
+                            </form>
                             <p>태그를 선택해주세요</p><br>
                             <input type = "checkbox" name = "tag" value = "Rock" class = "check">Rock
                             <input type = "checkbox" name = "tag" value = "Classical" class = "check">Classical

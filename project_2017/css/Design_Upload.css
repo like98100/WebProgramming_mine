@@ -1,0 +1,10 @@
+.text {
+    background-color: white;
+    color: black;
+}
+
+.upload fieldset textarea {
+    width: 1400px;
+    height: 600px;
+    resize: none;
+}

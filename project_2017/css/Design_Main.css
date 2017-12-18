@@ -11,7 +11,7 @@
         /*서브메뉴 링크*/
         .submenu_link {
             text-decoration: none;
-            position: static;
+            position: absolute;
             color: white;
             background-color: gray;
             border: 1px solid white;
@@ -41,6 +41,10 @@
         /*음악 배치*/
         .array_sound {
             
+        }
+
+        .tag {
+            font-size: 0.875em;
         }
 
         .last {
