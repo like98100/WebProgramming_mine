@@ -28,24 +28,24 @@
                 <div class = "upload">
                         <fieldset>
                             <legend>MuSik_UpLoad</legend>
-                            <p><input type = "text" name = "title" placeholder="제목" class = "text"></p>
-                            <textarea rows = "5" cols = "50" placeholder = "설명을 입력해주세요." class = "text"></textarea>
+                            <p><input type = "text" name = "title" placeholder="제목" class = "text"/></p>
+                            <textarea rows = "5" cols = "50" placeholder = "설명을 입력해주세요." class = "text"/></textarea>
                             <form action = "" method = "post" enctype = "multipart/form-data" name = "">
-                                <input type = "file" name = "FileName">
+                                <input type = "file" name = "FileName"/>
                             </form>
                             <p>태그를 선택해주세요</p><br>
-                            <input type = "checkbox" name = "tag" value = "Rock" class = "check">Rock
-                            <input type = "checkbox" name = "tag" value = "Classical" class = "check">Classical
-                            <input type = "checkbox" name = "tag" value = "Jazz" class = "check">Jazz
-                            <input type = "checkbox" name = "tag" value = "Pop" class = "check">Pop <br>
-                            <input type = "checkbox" name = "tag" value = "Ballad" class = "check">Ballad
-                            <input type = "checkbox" name = "tag" value = "Hiphop" class = "check">Hiphop
-                            <input type = "checkbox" name = "tag" value = "Elec" class = "check">Elec
-                            <input type = "checkbox" name = "tag" value = "RnB" class = "check">RnB <br>
-                            <input type = "checkbox" name = "tag" value = "Game" class = "check">Game
-                            <input type = "checkbox" name = "tag" value = "Drama" class = "check">Drama
-                            <input type = "checkbox" name = "tag" value = "Movie" class = "check">Movie
-                            <input type = "checkbox" name = "tag" value = "ETC" class = "check">ETC <br>
+                            <input type = "checkbox" name = "tag" value = "Rock" class = "check"/>Rock
+                            <input type = "checkbox" name = "tag" value = "Classical" class = "check"/>Classical
+                            <input type = "checkbox" name = "tag" value = "Jazz" class = "check"/>Jazz
+                            <input type = "checkbox" name = "tag" value = "Pop" class = "check"/>Pop <br>
+                            <input type = "checkbox" name = "tag" value = "Ballad" class = "check"/>Ballad
+                            <input type = "checkbox" name = "tag" value = "Hiphop" class = "check"/>Hiphop
+                            <input type = "checkbox" name = "tag" value = "Elec" class = "check"/>Elec
+                            <input type = "checkbox" name = "tag" value = "RnB" class = "check"/>RnB <br>
+                            <input type = "checkbox" name = "tag" value = "Game" class = "check"/>Game
+                            <input type = "checkbox" name = "tag" value = "Drama" class = "check"/>Drama
+                            <input type = "checkbox" name = "tag" value = "Movie" class = "check"/>Movie
+                            <input type = "checkbox" name = "tag" value = "ETC" class = "check"/>ETC <br>
                         </fieldset>
                 </div>
         </section>

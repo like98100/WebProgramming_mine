@@ -45,7 +45,7 @@
 
         <section style = "top: 300px;">
                 <div class = "array_sound">
-                        <p>&nbsp;Spectre <audio src = "music/Alan Walker - Spectre NCS Release.mp3" controls>NULL</audio></p>
+                        <p>&nbsp;Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls>NULL</audio></p>
                         <p class = "tag">&nbsp;&nbsp;&nbsp;Elec, ETC</p>
                         <hr width = 1400px />
                         음악 배치

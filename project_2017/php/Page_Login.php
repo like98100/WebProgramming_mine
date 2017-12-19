@@ -27,9 +27,9 @@
         <section>
                 <div class = "login">
                         <form action = "Login_second.php" method = "POST">
-                        <P>ID <input type = "text" name = "id" class = "login_id"></P>
-                        <p>PASSWORD <input type = "password" name = "password" class = "login_pass"></p>
-                        <input type = "submit">
+                        <P>ID <input type = "text" name = "id" class = "login_id"/></P>
+                        <p>PASSWORD <input type = "password" name = "password" class = "login_pass"/></p>
+                        <input type = "submit"/>
                         </form>
                         </div>
         </section>
