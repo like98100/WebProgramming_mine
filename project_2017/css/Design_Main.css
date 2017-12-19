@@ -30,23 +30,14 @@
             color: white;
             background-color: #4d4d4d;
         }
-       
-       /*우측 사운드플레이어*/
-        .player_sound {
-            position: relative;
-            float: right;
-            top: 150px;
-            z-index: 3;
-        }  
-        /*음악 배치*/
-        .array_sound {
-            
+
+        .player {
+            opacity: 0.0;
+            transition-duration: 0.25s;
+            width : 500px;
+            height : 7px;
         }
 
-        .tag {
-            font-size: 0.875em;
-        }
-
-        .last {
-
+        .music:hover .player {
+            opacity: 1.0;
         }

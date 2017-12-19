@@ -8,43 +8,33 @@
     </head>
     <body>
         <header>
-        <div class = "bar"><!-- menu bar-->
-            <div class = "title">
-                <img src = "../source/logo.png" width = 70px height = 35px style = "float: left; background-color: black;">
-                <p>MuSik</p>
-            </div>
-                <div class = "menu">
-                <span><a class = "menu_link" href = "../html/Page_Title.html">HomePage</a></span>
-                <span><a class = "menu_link" href = "Page_Introduce.php">Introduce</a></span>
-                <span><a class = "menu_link" href = "Page_Upload.php">Upload</a></span>
-                <span class = "loginforad">
-                     <span><a class = "login_link" href = "Page_Login.php">Login for admin</a></span>
-                </span>
-            </div>
-        </div>
+         <?php
+             echo file_get_contents("../source/menu_bar.txt");
+        ?>
         </header>
 
         <section>
                 <div class = "upload">
                         <fieldset>
                             <legend>MuSik_UpLoad</legend>
-                            <form action = "">
+                            <form enctype = "multipart/form-data" action = "Upload_Second.php" method = "post">
                              <p><input type = "text" name = "title" placeholder="제목" class = "text"/></p>
-                            <textarea rows = "5" cols = "50" placeholder = "설명을 입력해주세요." class = "text"/></textarea>
-                            <input type = "file" name = "FileName"/>
+                             
+                             <input type = "file" name = "music"/>
+
                             <p>태그를 선택해주세요</p><br>
-                            <input type = "checkbox" name = "tag" value = "Rock" class = "check"/>Rock
-                            <input type = "checkbox" name = "tag" value = "Classical" class = "check"/>Classical
-                            <input type = "checkbox" name = "tag" value = "Jazz" class = "check"/>Jazz
-                            <input type = "checkbox" name = "tag" value = "Pop" class = "check"/>Pop <br>
-                            <input type = "checkbox" name = "tag" value = "Ballad" class = "check"/>Ballad
-                            <input type = "checkbox" name = "tag" value = "Hiphop" class = "check"/>Hiphop
-                            <input type = "checkbox" name = "tag" value = "Elec" class = "check"/>Elec
-                            <input type = "checkbox" name = "tag" value = "RnB" class = "check"/>RnB <br>
-                            <input type = "checkbox" name = "tag" value = "Game" class = "check"/>Game
-                            <input type = "checkbox" name = "tag" value = "Drama" class = "check"/>Drama
-                            <input type = "checkbox" name = "tag" value = "Movie" class = "check"/>Movie
-                            <input type = "checkbox" name = "tag" value = "ETC" class = "check"/>ETC <br>
+                            <input type = "checkbox" name = "tag" value = "1" class = "check"/>Rock
+                            <input type = "checkbox" name = "tag" value = "2" class = "check"/>Classical
+                            <input type = "checkbox" name = "tag" value = "3" class = "check"/>Jazz
+                            <input type = "checkbox" name = "tag" value = "4" class = "check"/>Pop <br>
+                            <input type = "checkbox" name = "tag" value = "5" class = "check"/>Ballad
+                            <input type = "checkbox" name = "tag" value = "6" class = "check"/>Hiphop
+                            <input type = "checkbox" name = "tag" value = "7" class = "check"/>Elec
+                            <input type = "checkbox" name = "tag" value = "8" class = "check"/>RnB <br>
+                            <input type = "checkbox" name = "tag" value = "9" class = "check"/>Game
+                            <input type = "checkbox" name = "tag" value = "10" class = "check"/>Drama
+                            <input type = "checkbox" name = "tag" value = "11" class = "check"/>Movie
+                            <input type = "checkbox" name = "tag" value = "12" class = "check"/>ETC <br>
                             <br/>
                             <input type = "submit" value = "Upload" class = "button"/>
                             </form>

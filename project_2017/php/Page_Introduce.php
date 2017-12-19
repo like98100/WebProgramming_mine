@@ -8,30 +8,21 @@
     </head>
     <body>
         <header>
-        <div class = "bar"><!-- menu bar-->
-            <div class = "title">
-                <img src = "../source/logo.png" width = 70px height = 35px style = "float: left; background-color: black;">
-                <p>MuSik</p>
-            </div>
-            <div class = "menu">
-                <span><a class = "menu_link" href = "../html/Page_Title.html">HomePage</a></span>
-                <span><a class = "menu_link" href = "Page_Introduce.php">Introduce</a></span>
-                <span><a class = "menu_link" href = "Page_Upload.php">Upload</a></span>
-                <span class = "loginforad">
-                     <span><a class = "login_link" href = "Page_Login.php">Login for admin</a></span>
-                </span>
-            </div>
-        </div>
+            <?php
+            echo file_get_contents("../source/menu_bar.txt");
+             ?>
         </header>
 
         <section>
                 <div class = "introduce">
-                        <p class = "title_introduce"><img src = "../source/logo.png" width = 100px height = 50px >MuSik</p>
+                        <p class = "title_introduce"><img src = "../source/logo.png" width = 70px height = 50px >MuSik</p>
                         <hr/>
                         <p>MuSik은 음악 파일을 저장해서 자유롭게 감상 및 소장하기 위해 제작된 페이지입니다.</p>
-                        <p>로그인 기능은 현재 관리자 한정으로 지원하며, 익명으로 이용하는데 제한된 권리는 없습니다.</p>
-                        <p>업로드 기능은 자신이 원하는 음악의 정보를 기입하여 관리자에게 전송하는 시스템으로, 관리자의 검열을 통과하면 재생 목록에 추가됩니다.</p>
+                        <p>로그인 기능은 MuSik 페이지의 추가 기능을 이용할 수 있도록 만든 기능입니다.</p>
+                        <p>업로드 기능을 사용하여 자신이 원하는 음악의 정보를 기입 후 페이지에 추가하여 감상할 수 있습니다.</p>
+                        <p>업로드 기능은 로그인을 이용한 사용자에게만 허용되며 익명의 사용자는 제한됩니다.</p>
                         <p>12개의 태그를 클릭하여 자신이 원하는 음악을 더 빠르게 찾을 수 있습니다.</p>
+                        <P>제작자 E-Mail : like98100@naver.com</p>
                         </div>
         </section>
 </html>
