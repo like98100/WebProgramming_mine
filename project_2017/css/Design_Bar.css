@@ -12,7 +12,8 @@
         .menu {
             list-style: none;
             margin: 0px;
-            padding: 0px;         
+            padding: 0px;   
+            background-color: black;     
         }
         /*제목*/
         .title p {
@@ -26,15 +27,17 @@
         .loginforad {
             margin: 0px;
             background-color: black;
-            position: absolute;
+            position: relative;
+            float: right;
+            top: 27px;
         }
         
         .login_link {
             text-decoration: none;
-            padding: 1px 100px;
+            padding: 27px 100px;
             background-color: black;
             color: white;
-            position: absolute;
+            position: relative;
             font-size: 1em;
             transition-duration: 0.25s;
             text-align: center;
@@ -46,8 +49,8 @@
             background-color: black;
             color: white;
             line-height: 74px;
-            position: absolute;
-            padding: 1px 150px;
+            position: relative;
+            padding: 27px 150px;
             font-size: 1em;
             transition-duration: 0.25s;
         }
