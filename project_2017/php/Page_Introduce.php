@@ -14,12 +14,12 @@
                 <p>MuSik</p>
             </div>
             <div class = "menu">
-                <div><a class = "menu_link" href = "../html/Page_Title.html">HomePage</a></div>
-                <div><a class = "menu_link" href = "Page_Introduce.php" style = "left: 400px;">Introduce</a></div>
-                <div><a class = "menu_link" href = "Page_Upload.php" style = "left: 765px;">Upload</a></div>
-            </div>
-            <div class = "loginforad">
-                <div><a class = "login_link" href = "Page_Login.php" style = "left: 1600px;">Login for admin</a></div>
+                <span><a class = "menu_link" href = "../html/Page_Title.html">HomePage</a></span>
+                <span><a class = "menu_link" href = "Page_Introduce.php">Introduce</a></span>
+                <span><a class = "menu_link" href = "Page_Upload.php">Upload</a></span>
+                <span class = "loginforad">
+                     <span><a class = "login_link" href = "Page_Login.php">Login for admin</a></span>
+                </span>
             </div>
         </div>
         </header>
