@@ -28,11 +28,10 @@
                 <div class = "upload">
                         <fieldset>
                             <legend>MuSik_UpLoad</legend>
-                            <p><input type = "text" name = "title" placeholder="제목" class = "text"/></p>
+                            <form action = "">
+                             <p><input type = "text" name = "title" placeholder="제목" class = "text"/></p>
                             <textarea rows = "5" cols = "50" placeholder = "설명을 입력해주세요." class = "text"/></textarea>
-                            <form action = "" method = "post" enctype = "multipart/form-data" name = "">
-                                <input type = "file" name = "FileName"/>
-                            </form>
+                            <input type = "file" name = "FileName"/>
                             <p>태그를 선택해주세요</p><br>
                             <input type = "checkbox" name = "tag" value = "Rock" class = "check"/>Rock
                             <input type = "checkbox" name = "tag" value = "Classical" class = "check"/>Classical
@@ -46,6 +45,10 @@
                             <input type = "checkbox" name = "tag" value = "Drama" class = "check"/>Drama
                             <input type = "checkbox" name = "tag" value = "Movie" class = "check"/>Movie
                             <input type = "checkbox" name = "tag" value = "ETC" class = "check"/>ETC <br>
+                            <br/>
+                            <input type = "submit" value = "Upload" class = "button"/>
+                            </form>
+
                         </fieldset>
                 </div>
         </section>
