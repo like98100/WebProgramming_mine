@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>MuSik</title>
+        <link href="../css/Design.css" type=text/css rel=stylesheet>
+        <link href="../css/Design_Bar.css" type=text/css rel=stylesheet>
+        <link href="../css/Design_Upload.css" type=text/css rel=stylesheet>
+    </head>
+    <body>
+        <header>
+        <div class = "bar"><!-- menu bar-->
+            <div class = "title">
+                <img src = "../source/logo.png" width = 70px height = 35px style = "float: left; background-color: black;">
+                <p>MuSik</p>
+            </div>
+            <div class = "menu">
+                <div><a class = "menu_link" href = "Page_Title.php">HomePage</a></div>
+                <div><a class = "menu_link" href = "Page_Introduce.php" style = "left: 400px;">Introduce</a></div>
+                <div><a class = "menu_link" href = "Page_Upload.php" style = "left: 765px;">Upload</a></div>
+            </div>
+            <div class = "loginforad">
+                <div><a class = "login_link" href = "Page_Login.php" style = "left: 1600px;">Login for admin</a></div>
+            </div>
+        </div>
+        </header>
+
+        <section>
+                <div class = "upload">
+                        <fieldset>
+                            <legend>MuSik_UpLoad</legend>
+                            <p><input type = "text" name = "title" placeholder="제목" class = "text"></p>
+                            <textarea rows = "5" cols = "50" placeholder = "설명을 입력해주세요." class = "text"></textarea>
+                            <form action = "" method = "post" enctype = "multipart/form-data" name = "">
+                                <input type = "file" name = "FileName">
+                            </form>
+                            <p>태그를 선택해주세요</p><br>
+                            <input type = "checkbox" name = "tag" value = "Rock" class = "check">Rock
+                            <input type = "checkbox" name = "tag" value = "Classical" class = "check">Classical
+                            <input type = "checkbox" name = "tag" value = "Jazz" class = "check">Jazz
+                            <input type = "checkbox" name = "tag" value = "Pop" class = "check">Pop <br>
+                            <input type = "checkbox" name = "tag" value = "Ballad" class = "check">Ballad
+                            <input type = "checkbox" name = "tag" value = "Hiphop" class = "check">Hiphop
+                            <input type = "checkbox" name = "tag" value = "Elec" class = "check">Elec
+                            <input type = "checkbox" name = "tag" value = "RnB" class = "check">RnB <br>
+                            <input type = "checkbox" name = "tag" value = "Game" class = "check">Game
+                            <input type = "checkbox" name = "tag" value = "Drama" class = "check">Drama
+                            <input type = "checkbox" name = "tag" value = "Movie" class = "check">Movie
+                            <input type = "checkbox" name = "tag" value = "ETC" class = "check">ETC <br>
+                        </fieldset>
+                </div>
+        </section>
+</html>
