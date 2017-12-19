@@ -12,7 +12,7 @@
             $password = $_POST["password"];
             if($id == "like98100" && $password == "1111") {
                 echo "<script>alert(\"어서오세요 관리자님\");</script>";
-                echo "<script>location.replace('Page_Title.php');</script>";
+                echo "<script>location.replace('../html/Page_Title.html');</script>";
             } else {
                 echo "<script>alert(\"누구세요\");</script>";
                 echo "<script>location.replace('Page_Login.php');</script>";

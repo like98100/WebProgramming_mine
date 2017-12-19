@@ -14,7 +14,7 @@
                 <p>MuSik</p>
             </div>
             <div class = "menu">
-                <div><a class = "menu_link" href = "Page_Title.php">HomePage</a></div>
+                <div><a class = "menu_link" href = "../html/Page_Title.html">HomePage</a></div>
                 <div><a class = "menu_link" href = "Page_Introduce.php" style = "left: 400px;">Introduce</a></div>
                 <div><a class = "menu_link" href = "Page_Upload.php" style = "left: 765px;">Upload</a></div>
             </div>
