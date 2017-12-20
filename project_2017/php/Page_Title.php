@@ -11,7 +11,7 @@
         <?php
         echo file_get_contents("../source/menu_bar.txt");
           ?>
-
+        <div class = "submenu">
         <div class = "submenu_tag">
                 <a class = "submenu_link" href = "?id=1">Rock</a>
                 <a class = "submenu_link" href = "?id=2" style = "left: 275px;">Classical</a>
@@ -30,6 +30,7 @@
                 <a class = "submenu_link" href = "?id=11" style = "left: 550px;">Movie</a>
                 <a class = "submenu_link"href = "?id=12" style = "left: 825px;">ETC</a>
         </div>
+        </div>
         </header>
 
         <section style = "top: 300px;">
@@ -37,7 +38,7 @@
                         <?php 
                             echo file_get_contents("../source/song".$_GET['id'].".txt");
                         ?>
-                        </div>
+                        </div>     
         </section>
         <!--
         <aside class = "player_sound">

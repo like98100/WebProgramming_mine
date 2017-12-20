@@ -15,15 +15,22 @@
                 $filecount = count(glob($dir."*.txt"));
                 for($i = 1; $i <= $filecount; $i += 1) 
                 {   
-                    $befile = '../source/account/'.$i.'.txt';
-                    $beid = implode(".", $befile);
-                    echo $beid[0];
-                    if(strcmp($id, $beid[0]) && strcmp($password, $beid[1])) 
-                    {
-                        echo "<script>alert(\"어서오세요\");</script>";
-                        $check = 1;
-                        echo "<script>location.replace('Page_Title.php?id=0');</script>";
+                    $befp = fopen('../source/account/'.$i.'.txt', "r");
+                    $beid = fgets($befp, 1024);
+                    while(!feof($befp)) {
+                        $buffer = fgets($befp)."<br>";
                     }
+                    $repair_id = chop($beid);
+                    $repair_pass = strip_tags($buffer, '<br/>');
+                    if(strcmp($id, $repair_id) == 0 && strcmp($password, $repair_pass) == 0) 
+                    {
+                        fclose($befp);
+                        $check = 1;
+                        echo "<script>alert(\"어서오세요\");</script>";
+                        echo "<script>location.replace('Page_Title.php?id=0');</script>";
+                        break;
+                    }
+                    fclose($befp);
                 }
             }
 

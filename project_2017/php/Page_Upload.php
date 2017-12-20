@@ -17,11 +17,6 @@
                 <div class = "upload">
                         <fieldset>
                             <legend>MuSik_UpLoad</legend>
-                            <form enctype = "multipart/form-data" action = "Upload_Second.php" method = "post">
-                             <p><input type = "text" name = "title" placeholder="제목" class = "text"/></p>
-                             
-                             <input type = "file" name = "music"/>
-
                             <p>태그를 선택해주세요</p><br>
                             <input type = "checkbox" name = "tag" value = "1" class = "check"/>Rock
                             <input type = "checkbox" name = "tag" value = "2" class = "check"/>Classical
@@ -36,6 +31,8 @@
                             <input type = "checkbox" name = "tag" value = "11" class = "check"/>Movie
                             <input type = "checkbox" name = "tag" value = "12" class = "check"/>ETC <br>
                             <br/>
+                            <form enctype = "multipart/form-data" action = "Upload_Second.php" method = "post">
+                            <input type = "file" name = "music"/>
                             <input type = "submit" value = "Upload" class = "button"/>
                             </form>
 

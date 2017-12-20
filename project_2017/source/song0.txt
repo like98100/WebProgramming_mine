@@ -1,50 +1,62 @@
-                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls class = "player">NULL</audio></p>
+                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls loop class = "player">NULL</audio></p>
                 <hr width = 1400px /> <br />
-                                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls class = "player">NULL</audio></p>
+                                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls loop class = "player">NULL</audio></p>
                 <hr width = 1400px /> <br />
-
-                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls class = "player">NULL</audio></p>
+                                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls loop class = "player">NULL</audio></p>
                 <hr width = 1400px /> <br />
-
-                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls class = "player">NULL</audio></p>
+                                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls loop class = "player">NULL</audio></p>
                 <hr width = 1400px /> <br />
-
-                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls class = "player">NULL</audio></p>
+                                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls loop class = "player">NULL</audio></p>
                 <hr width = 1400px /> <br />
-
-                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls class = "player">NULL</audio></p>
+                                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls loop class = "player">NULL</audio></p>
                 <hr width = 1400px /> <br />
-
-                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls class = "player">NULL</audio></p>
+                                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls loop class = "player">NULL</audio></p>
                 <hr width = 1400px /> <br />
-
-                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls class = "player">NULL</audio></p>
+                                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls loop class = "player">NULL</audio></p>
                 <hr width = 1400px /> <br />
-
-                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls class = "player">NULL</audio></p>
+                                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls loop class = "player">NULL</audio></p>
                 <hr width = 1400px /> <br />
-
-                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls class = "player">NULL</audio></p>
+                                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls loop class = "player">NULL</audio></p>
                 <hr width = 1400px /> <br />
-
-                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls class = "player">NULL</audio></p>
+                                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls loop class = "player">NULL</audio></p>
                 <hr width = 1400px /> <br />
-
-                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls class = "player">NULL</audio></p>
+                                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls loop class = "player">NULL</audio></p>
                 <hr width = 1400px /> <br />
-
-                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls class = "player">NULL</audio></p>
+                                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls loop class = "player">NULL</audio></p>
                 <hr width = 1400px /> <br />
-
-                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls class = "player">NULL</audio></p>
+                                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls loop class = "player">NULL</audio></p>
                 <hr width = 1400px /> <br />
-
-                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls class = "player">NULL</audio></p>
+                                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls loop class = "player">NULL</audio></p>
                 <hr width = 1400px /> <br />
-
-                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls class = "player">NULL</audio></p>
+                                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls loop class = "player">NULL</audio></p>
                 <hr width = 1400px /> <br />
-
-                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls class = "player">NULL</audio></p>
+                                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls loop class = "player">NULL</audio></p>
                 <hr width = 1400px /> <br />
-
+                                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls loop class = "player">NULL</audio></p>
+                <hr width = 1400px /> <br />
+                                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls loop class = "player">NULL</audio></p>
+                <hr width = 1400px /> <br />
+                                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls loop class = "player">NULL</audio></p>
+                <hr width = 1400px /> <br />
+                                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls loop class = "player">NULL</audio></p>
+                <hr width = 1400px /> <br />
+                                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls loop class = "player">NULL</audio></p>
+                <hr width = 1400px /> <br />
+                                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls loop class = "player">NULL</audio></p>
+                <hr width = 1400px /> <br />
+                                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls loop class = "player">NULL</audio></p>
+                <hr width = 1400px /> <br />
+                                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls loop class = "player">NULL</audio></p>
+                <hr width = 1400px /> <br />
+                                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls loop class = "player">NULL</audio></p>
+                <hr width = 1400px /> <br />
+                                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls loop class = "player">NULL</audio></p>
+                <hr width = 1400px /> <br />
+                                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls loop class = "player">NULL</audio></p>
+                <hr width = 1400px /> <br />
+                                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls loop class = "player">NULL</audio></p>
+                <hr width = 1400px /> <br />
+                                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls loop class = "player">NULL</audio></p>
+                <hr width = 1400px /> <br />
+                                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls loop class = "player">NULL</audio></p>
+                <hr width = 1400px /> <br />

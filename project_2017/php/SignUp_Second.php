@@ -15,22 +15,25 @@
                         $filecount = count(glob($dir."*.txt"));
                         for($i = 1; $i <= $filecount; $i += 1) 
                         {   
-                            $befile = '../source/account/'.$i.'.txt';
-                            $beid = implode(".", $befile);
-                            $check_arr = strcmp($id, $beid[0]);
-                            if(!$check_arr) 
+                            $befp = fopen('../source/account/'.$i.'.txt', "r");
+                            $beid = fgets($befp, 1024);
+                            $repair_id = chop($beid);
+                            if(strcmp($id, $repair_id) == 0) 
                             {
-                                echo "<script>alert(\"이미 존재하는 계정입니다.\");</script>";
                                 $check = 1;
+                                fclose($befp);
+                                echo "<script>alert(\"이미 존재하는 계정입니다.\");</script>";
                                 echo "<script>location.replace('Page_Title.php?id=0');</script>";
                             }
+                            fclose($befp);
+                            
                         }
                     }
                     if($check == 0)
                     {
                         $filecount += 1;
-                        $idfile = '../source/account/'.$filecount.'.txt';
-                        file_put_contents($idfile, $id.".".$pass);
+                        $idfile = $dir.$filecount.'.txt';
+                        file_put_contents($idfile, $id."\r\n".$pass);
     
                         echo "<script>alert(\"회원가입이 완료되었습니다.\");</script>";
                         echo "<script>location.replace('Page_Title.php?id=0');</script>";

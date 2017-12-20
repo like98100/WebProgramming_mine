@@ -1,0 +1,68 @@
+       /*상단바 전체*/
+        .bar {
+            clear: both;
+            height: 115px;
+            width: 100%;
+            position: fixed;
+            z-index: 1;
+            background-color: black;
+            border-bottom: 5px solid gray;
+        }
+        /*상단바 메뉴*/
+        .menu {
+            list-style: none;
+            margin: 0px;
+            padding: 0px;  
+            background-color: black;       
+        }
+        /*제목*/
+        .title p {
+            background-color: black;
+            color: white;
+            font-size: 1.7em;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        /*로그인*/
+        .loginforad {
+            margin: 0px;
+            background-color: black;
+            position: relative;
+            float: right;
+            top: 27px;
+        }
+        
+        .login_link {
+            text-decoration: none;
+            padding: 27px 100px;
+            background-color: black;
+            color: white;
+            position: relative;
+            font-size: 1em;
+            transition-duration: 0.25s;
+            text-align: center;
+        }
+
+        /*메뉴 링크*/
+        .menu_link {
+            text-decoration: none;
+            background-color: black;
+            color: white;
+            line-height: 74px;
+            position: relative;
+            padding: 30px 150px;
+            font-size: 1em;
+            transition-duration: 0.25s;
+        }
+
+
+        /*메뉴 링크 호버*/
+        .menu_link:hover {
+            color: white;
+            background-color: #4d4d4d;
+        }
+
+        .login_link:hover {
+            color: white;
+            background-color: #4d4d4d;
+        }

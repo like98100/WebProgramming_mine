@@ -1,15 +1,23 @@
 
-        <div class = "bar"><!-- menu bar-->
-            <div class = "title">
-                <img src = "../source/logo.png" width = 37px height = 30px style = "float: left; background-color: black;">
-                <p>MuSik</p>
+             <main_me>
+            <tit>
+            <a href = "../html/Page_Start.html">
+                <img src = "../source/logo.png" width = 37px height = 30px style = "background-color: black;"/>
+                
+            </a>
+            <p>MuSik</p>
+            </tit>
+            <div class = "menu">
+                <a href = "Page_Title.php?id=0">HomePage</a>
             </div>
-                <div class = "menu">
-                <span><a class = "menu_link" href = "Page_Title.php?id=0">HomePage</a></span>
-                <span><a class = "menu_link" href = "Page_Introduce.php">Introduce</a></span>
-                <span><a class = "menu_link" href = "Page_Upload.php">Upload</a></span>
-                <span class = "loginforad">
-                     <span><a class = "login_link" href = "Page_Login.php">Login for admin</a></span>
-                </span>
+            <div class = "menu">
+                <a href = "Page_Introduce.php">Introduce</a>
             </div>
-        </div>
+            <div class = "menu">
+                <a href = "Page_Upload.php">Upload</a>
+            </div>
+            </div>
+            <div class = "menu">
+                <a href = "Page_Login.php">Login</a>
+            </div>
+            </main_me>

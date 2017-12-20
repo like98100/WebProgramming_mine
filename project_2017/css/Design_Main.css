@@ -1,3 +1,7 @@
+        
+        .submenu {
+            
+        }
         /*서브메뉴(태그)*/
         .submenu_tag {
             display: inline-block;
@@ -7,6 +11,7 @@
             left: 370px;
             margin: 0px;
             padding: 0px;
+
         }
         /*서브메뉴 링크*/
         .submenu_link {
