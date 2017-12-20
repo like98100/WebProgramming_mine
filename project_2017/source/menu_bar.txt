@@ -1,6 +1,5 @@
-
-             <main_me>
-            <tit>
+<main_me>
+            <tit class = "container">
             <a href = "../html/Page_Start.html">
                 <img src = "../source/logo.png" width = 37px height = 30px style = "background-color: black;"/>
                 
@@ -18,6 +17,14 @@
             </div>
             </div>
             <div class = "menu">
-                <a href = "Page_Login.php">Login</a>
+                    <?php
+                    if(!isset($_SESSION['id'])) {
+                            echo "<a href = \"Page_Login.php\">Login</a>";
+                    } else {
+                            $user_id = $_SESSION['id'];
+                            echo "<p style = \"background-color: black;\">$user_id</p>";
+                            echo "<a href=\"Logout.php\">Logout</a></p>";
+                    }
+                    ?>
             </div>
             </main_me>

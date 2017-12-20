@@ -1,2 +1,2 @@
-                <p class = "music">&nbsp;[Elec, ETC]Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls loop class = "player">NULL</audio></p>
-                <hr width = 1400px /> <br />
+                <p class = "music">&nbsp;Spectre <audio src = "../music/Alan Walker - Spectre NCS Release.mp3" controls loop class = "player">NULL</audio></p>
+                <hr class = "line" /> <br />

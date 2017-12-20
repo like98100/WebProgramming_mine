@@ -1,5 +1,8 @@
+.text {
+    background-color: white;
+}
 
-.upload {
+section {
     display : flex;
     flex-direction : column;
     justify-content : flex-start;
@@ -18,11 +21,4 @@
     left: 25%;
     top: 33%;
     padding: 0;
-    
 }
-
-
-.upload h1 {
-    font-size: 2.5em;
-}
-

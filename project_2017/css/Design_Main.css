@@ -1,48 +1,53 @@
-        
-        .submenu {
-            
-        }
-        /*서브메뉴(태그)*/
-        .submenu_tag {
-            display: inline-block;
-            text-decoration: none;
-            position: absolute;
-            top: 128px;
-            left: 370px;
-            margin: 0px;
-            padding: 0px;
 
-        }
-        /*서브메뉴 링크*/
-        .submenu_link {
-            text-decoration: none;
-            position: absolute;
-            color: white;
-            background-color: gray;
-            border: 1px solid white;
-            height: 30px;
-            width: 100px;
-            padding: 5px 80px;
-            line-height: 30px;
-            font-size: 1em;
-            text-align: center;
-            display: inline-block;
-            transition-duration: 0.25s;
-            text-align: center;
-        }       
-       
-        .submenu_link:hover {
-            color: white;
-            background-color: #4d4d4d;
-        }
+/*서브메뉴(태그)*/
+.submenu_tag {
+    display: inline-block;
+    text-decoration: none;
+    position: absolute;
+    top: 128px;
+    left: 370px;
+    margin: 0px;
+    padding: 0px;
 
-        .player {
-            opacity: 0.0;
-            transition-duration: 0.25s;
-            width : 500px;
-            height : 7px;
-        }
+}
+/*서브메뉴 링크*/
+.submenu_link {
+    text-decoration: none;
+    position: absolute;
+    color: white;
+    background-color: gray;
+    border: 1px solid white;
+    height: 30px;
+    width: 100px;
+    padding: 5px 80px;
+    line-height: 30px;
+    font-size: 1em;
+    text-align: center;
+    display: inline-block;
+    transition-duration: 0.25s;
+    text-align: center;
+}       
 
-        .music:hover .player {
-            opacity: 1.0;
-        }
+.submenu_link:hover {
+    color: white;
+    background-color: #4d4d4d;
+}
+/*뮤직플레이어*/
+.player {
+    opacity: 0.0;
+    transition-duration: 0.25s;
+    width : 500px;
+    height : 7px;
+}
+.music {
+    text-align: center;
+}
+
+.music:hover .player {
+    opacity: 1.0;
+}
+
+.line {
+    width: 170%;
+    text-align: center;
+}

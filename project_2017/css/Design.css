@@ -10,9 +10,22 @@
             color: white;
         }
 
+        body {
+            margin : 0;
+        }
+
         section {
             position: absolute;
+            width : 70%;
             top: 200px;
-            left: 200px;
             font-size: 1.1em;
+            display : flex;
+            flex-direction :column;
+            justify-content : flex-start;
+            align-items : center;
+            align-content : flex-start;
+            z-index: 0;
+        }
+        .container {
+            text-align: center;
         }
