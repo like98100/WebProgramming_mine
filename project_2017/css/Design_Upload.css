@@ -26,3 +26,12 @@
     font-size: 2.5em;
 }
 
+.button {
+    border: 5px solid gray;
+    font-size: 0.81em;
+    border-radius: 7px;
+}
+
+.button:active {
+    background-color: #424242;
+}

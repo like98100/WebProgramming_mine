@@ -1,1 +1,12 @@
-.
+﻿<p class = "music">&nbsp;Don't Deal with the Devil <audio src = "../music/Cuphead Soundtrack - Dont Deal with the Devil (Track 1) - Cuphead OST.mp3" controls loop class = "player">NULL</audio></p>
+                <hr class = "line" /> <br />
+		<p class = "music">&nbsp;Botanic Panic <audio src = "../music/Cuphead Soundtrack - Botanic Panic (Track 7) - Cuphead OST.mp3" controls loop class = "player">NULL</audio></p>
+                <hr class = "line" /> <br />
+		<p class = "music">&nbsp;Ruse of an Ooze <audio src = "../music/Cuphead Soundtrack - Ruse of an Ooze (Track 12) - Cuphead OST.mp3" controls loop class = "player">NULL</audio></p>
+                <hr class = "line" /> <br />
+		<p class = "music">&nbsp;Clip Joint Calamity <audio src = "../music/Cuphead Soundtrack - Clip Joint Calamity (Track 15) - Cuphead OST.mp3" controls loop class = "player">NULL</audio></p>
+                <hr class = "line" /> <br />
+		<p class = "music">&nbsp;Floral Fury<audio src = "../music/Cuphead Soundtrack - Floral Fury (Track 13) - Cuphead OST.mp3" controls loop class = "player">NULL</audio></p>
+                <hr class = "line" /> <br />
+		<p class = "music">&nbsp;Threatenin Zeppelin<audio src = "../music/Cuphead Soundtrack - Threatenin Zeppelin (Track 10) - Cuphead OST.mp3" controls loop class = "player">NULL</audio></p>
+                <hr class = "line" /> <br />

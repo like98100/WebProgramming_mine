@@ -73,8 +73,8 @@
                 <input type = "checkbox" name = "12" value = "ETC" class = "check">ETC <br>
                 <br/><br/>
                 <h1>#File</h1><br/><br/><br/>
-                <input type = "file" name = "audio"/>
-                <input type = "submit" value = "Upload" name = "save_audio"/>
+                <input type = "file" name = "audio" class = "button"/>
+                <input type = "submit" value = "Upload" name = "save_audio" class = "button"/>
                 </form>
         </section>
 </html>

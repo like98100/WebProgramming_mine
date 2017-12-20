@@ -40,7 +40,7 @@
     height : 7px;
 }
 .music {
-    text-align: center;
+    text-align: left;
 }
 
 .music:hover .player {

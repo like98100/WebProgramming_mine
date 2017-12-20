@@ -44,10 +44,16 @@
 
         <section>
                 <div class = "signup">
+                    <p id = "text">Sign up</p>
                     <form action = "SignUp_Second.php">
-                    <p>ID&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "text" name = "id" placeholder="id" class = "text"/></p>
-                    <p>Pass&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "password" name = "password" placeholder="password" class = "text"/></p>
-                    <input type = "submit" value = "Complete"/>
+                    <p>ID&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type = "text" name = "id" placeholder="id" class = "text"/>
+                    </p>
+                    <p>Pass&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type = "password" name = "password" placeholder="password" class = "text"/>
+                    </p>
+                    <div style = " height:30px;"></div>
+                    <input type = "submit" value = "Complete" class = "button"/>
                     </form>
                         </div>
         </section>

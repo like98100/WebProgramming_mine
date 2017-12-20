@@ -7,7 +7,7 @@
         <link href="../css/Design_Bar.css" type=text/css rel=stylesheet>
         <link href="../css/Design_Main.css" type=text/css rel=stylesheet>
     </head>
-    <body class = "container">
+    <body>
         <header>
 
         <main_me>

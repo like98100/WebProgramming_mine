@@ -1,1 +1,4 @@
-.
+﻿		<p class = "music">&nbsp;눈의 꽃<audio src = "../music/박효신 - 눈의 꽃.mp3" controls loop class = "player">NULL</audio></p>
+                <hr class = "line" /> <br />
+		<p class = "music">&nbsp;야생화<audio src = "../music/박효신 (Park Hyo Shin) - 야생화 (Wild Flower).mp3" controls loop class = "player">NULL</audio></p>
+                <hr class = "line" /> <br />

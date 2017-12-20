@@ -1,1 +1,8 @@
-.
+﻿<p class = "music">&nbsp;Bliss<audio src = "../music/Muse - Bliss.mp3" controls loop class = "player">NULL</audio></p>
+                <hr class = "line" /> <br />
+		<p class = "music">&nbsp;Hysteria<audio src = "../music/Muse- Hysteria.mp3" controls loop class = "player">NULL</audio></p>
+                <hr class = "line" /> <br />
+		<p class = "music">&nbsp;Time is Running Out<audio src = "../music/Muse- Time is Running Out.mp3" controls loop class = "player">NULL</audio></p>
+                <hr class = "line" /> <br />
+		<p class = "music">&nbsp;Resistance<audio src = "../music/The Resistance Muse Resistance.mp3" controls loop class = "player">NULL</audio></p>
+                <hr class = "line" /> <br />
